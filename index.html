@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <link src="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Movies</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="movie-title">
+        <label for="age" class="age">Enter your age:</label>
+        <input id="age" type="text">
+        <label for="movie">What movie do you want to see?</label>
+          <select class="form-control" id="movie">
+            <option value="1">Aladdin</option>
+            <option value="2">Titanic</option>
+            <option value="3">Matrix</option>
+            <option value="4">Tenet</option>
+          </select>
+        <label for="time">Time of the day</label>
+          <select class="form-control" id="time">
+            <option value="1">1pm</option>
+            <option value="2">5pm</option>
+            <option value="3">7pm</option>
+          </select>
+        <button type="submit" class="btn">SUBMIT</button>
+      </form>
+      <div id="output-price"><div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
